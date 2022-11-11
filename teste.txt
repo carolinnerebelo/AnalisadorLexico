@@ -1,0 +1,28 @@
+int x = 1, y = 2;
+var v;
+bool z;
+float w = 3.14;
+
+    /*abuble /*bublebuble /*abublebuble 
+abu */
+ble */
+buble */
+
+while (z) {
+    if (w != x) {
+        w = w - x;
+        if (y == x) {
+            y = y + x;
+            z = true;
+            return z;
+        }
+    }
+    else {
+        z = false;
+        x = */
+        y = 12aaaa;
+        w = 02.20;
+        return z;
+    }
+}
+
