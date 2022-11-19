@@ -21,6 +21,7 @@ FILE *file;
 
 %%
 
+"//".*    fprintf(file, "<COMENTARIO, '%s', %d, %d>\n", yytext, yylineno, indent);
 "/*"    { cont++; fprintf(file, "<COMENTARIO, '"); linha_coment = yylineno; BEGIN(COMMENT); }
 
 <COMMENT>{
