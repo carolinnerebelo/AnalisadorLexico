@@ -79,7 +79,9 @@ false   fprintf(file, "<FALSE, 'false', %d, %d>\n", yylineno, indent);
 %%
 
 
-yywrap(){}
+int yywrap() {
+    return 1;
+}
 
 int main(int argc, char *argv[]) {
     
