@@ -18,7 +18,7 @@ while (z) {
         }
     }
     else {
-        z = false;
+        z = false;  // jacaré que dorme vira bolsa
         x = */
         y = 12aaaa;
         w = 02.20;
